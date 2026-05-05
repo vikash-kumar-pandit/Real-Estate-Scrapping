@@ -24,4 +24,10 @@ This project scrapes real estate listings from major platforms like **99acres** 
 3. **Transformation**: Normalizing price units (Cr/Lakh) to a single numeric column.
 4. **Storage**: Exporting to CSV for further analysis.
 
+## 🔄 Real-Time Scraping & Historical Tracking
+- **Live Data**: Each notebook run fetches current prices from 99acres
+- **Timestamp**: Every scrape is tagged with date/time (`Scraped_Date` column)
+- **Historical Archive**: Timestamped backups saved as `99acres_historical_YYYYMMDD_HHMMSS.csv`
+- **Trend Analysis**: Main CSV (`99acres_clean_data.csv`) appends new data for price history comparison
+
 ---
