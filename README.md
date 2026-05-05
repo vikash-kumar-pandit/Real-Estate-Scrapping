@@ -30,10 +30,4 @@ This project scrapes real estate listings from major platforms like **99acres** 
 - **Historical Archive**: Timestamped backups saved as `99acres_historical_YYYYMMDD_HHMMSS.csv`
 - **Trend Analysis**: Main CSV (`99acres_clean_data.csv`) appends new data for price history comparison
 
-## 🔍 Selector Optimization
-- **Robust CSS Selectors**: Multiple fallback selectors ensure compatibility as 99acres updates its HTML
-- **Diagnostic Tool**: Run the diagnostic cell to verify which selectors work on current page structure
-- **Data Validation**: Only valid records (with proper Title) are appended to results
-- **Better Error Handling**: Graceful fallbacks if selectors don't match
-
 ---
